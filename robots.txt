@@ -1,0 +1,24 @@
+# robots.txt — José Lezama CV
+# Permite que todos los buscadores indexen la web
+
+User-agent: *
+Allow: /
+Crawl-delay: 1
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# LinkedIn
+User-agent: LinkedInBot
+Allow: /
+
+# Twitter / X
+User-agent: Twitterbot
+Allow: /
+
+Sitemap: https://jxnus88.github.io/sitemap.xml
