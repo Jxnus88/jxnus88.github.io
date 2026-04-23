@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="es" prefix="og: https://ogp.me/ns#">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-B2C2GG4SEK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-B2C2GG4SEK');
+  </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -137,106 +145,6 @@
   <link rel="stylesheet" href="css/hero.css" />
   <link rel="stylesheet" href="css/sections.css" />
 
-  <style>
-    /* ══ INSIGNIAS CREDLY ═══════════════════════ */
-    .badges-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1.25rem;
-    }
-
-    .badge-card {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.5rem 1.25rem;
-      text-decoration: none;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      gap: 0.75rem;
-      transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .badge-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 3px;
-      transform: scaleX(0);
-      transform-origin: left;
-      transition: transform 0.3s ease;
-    }
-
-    .badge-card.red::before  { background: #ee0000; }
-    .badge-card.blue::before { background: #049fd9; }
-
-    .badge-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 28px rgba(37, 99, 235, 0.1);
-      border-color: var(--border2);
-    }
-
-    .badge-card:hover::before { transform: scaleX(1); }
-
-    .badge-logo {
-      width: 72px; height: 72px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'DM Mono', monospace;
-      font-size: 13px;
-      font-weight: 600;
-      flex-shrink: 0;
-      transition: transform 0.3s ease;
-    }
-
-    .badge-card:hover .badge-logo { transform: scale(1.08); }
-
-    .badge-logo.red  { background: #fff0f0; border: 2px solid #fca5a5; color: #ee0000; }
-    .badge-logo.blue { background: #e8f7fc; border: 2px solid #7dd3ea; color: #049fd9; }
-
-    .badge-issuer {
-      font-family: 'DM Mono', monospace;
-      font-size: 10px;
-      font-weight: 500;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      padding: 3px 10px;
-      border-radius: 100px;
-    }
-
-    .badge-issuer.red  { background: #fff0f0; color: #ee0000; border: 1px solid #fca5a5; }
-    .badge-issuer.blue { background: #e8f7fc; color: #049fd9; border: 1px solid #7dd3ea; }
-
-    .badge-name {
-      font-size: 13.5px;
-      font-weight: 600;
-      color: var(--text);
-      line-height: 1.4;
-    }
-
-    .badge-code {
-      font-family: 'DM Mono', monospace;
-      font-size: 11px;
-      color: var(--text3);
-    }
-
-    .badge-verify {
-      font-size: 11.5px;
-      font-weight: 500;
-      color: var(--blue);
-      opacity: 0;
-      transition: opacity 0.2s ease;
-      margin-top: auto;
-    }
-
-    .badge-card:hover .badge-verify { opacity: 1; }
-  </style>
 </head>
 <body>
 
@@ -432,7 +340,7 @@
               <div class="kc-logo red">KA</div>
               <div>
                 <div class="kc-title">Kernex Academy</div>
-                <div class="kc-label">SysAdmin · marzo 2026 — presente</div>
+                <div class="kc-label">Cofundador · SysAdmin · marzo 2026 — presente</div>
               </div>
             </div>
             <p class="kc-desc">
@@ -488,7 +396,7 @@
             <div class="timeline-dot"><div class="timeline-dot-inner"></div></div>
             <div class="tl-box">
               <div class="tl-header">
-                <div class="tl-role">SysAdmin</div>
+                <div class="tl-role">Cofundador &amp; SysAdmin</div>
                 <div class="tl-date">03/2026 — presente</div>
               </div>
               <div class="tl-company">Kernex Academy</div>
